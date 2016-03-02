@@ -1,0 +1,144 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="example.com.db.nimbuzz_banbot_android_by_db.JoinRoom"
+    android:background="#b7fdc7">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/joinlbl"
+        android:id="@+id/textView9"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:textColor="#0846e5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rnamelbl"
+        android:id="@+id/textView10"
+        android:textSize="20sp"
+        android:textColor="#5f0404"
+        android:layout_below="@+id/textView9"
+        android:layout_toLeftOf="@+id/textView9"
+        android:layout_toStartOf="@+id/textView9"
+        android:layout_marginTop="40dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/roomname"
+        android:inputType="text"
+        android:layout_below="@+id/textView10"
+        android:layout_alignLeft="@+id/textView10"
+        android:layout_alignStart="@+id/textView10"
+        android:layout_alignRight="@+id/textView9"
+        android:layout_alignEnd="@+id/textView9" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/botnicklbl"
+        android:id="@+id/textView11"
+        android:layout_below="@+id/roomname"
+        android:layout_alignLeft="@+id/roomname"
+        android:layout_alignStart="@+id/roomname"
+        android:textColor="#5f0404"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/botnick"
+        android:layout_below="@+id/textView11"
+        android:layout_alignLeft="@+id/textView11"
+        android:layout_alignStart="@+id/textView11"
+        android:layout_alignRight="@+id/roomname"
+        android:layout_alignEnd="@+id/roomname"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/botmaster"
+        android:id="@+id/textView12"
+        android:textSize="20sp"
+        android:textColor="#5f0404"
+        android:layout_below="@+id/botnick"
+        android:layout_alignLeft="@+id/botnick"
+        android:layout_alignStart="@+id/botnick" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/botmastxt"
+        android:inputType="text"
+        android:layout_below="@+id/textView12"
+        android:layout_alignLeft="@+id/textView12"
+        android:layout_alignStart="@+id/textView12"
+        android:layout_alignRight="@+id/botnick"
+        android:layout_alignEnd="@+id/botnick" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enterroombtnlbl"
+        android:id="@+id/roomenterbtn"
+        android:textSize="20sp"
+        android:textColor="#4564ed"
+        android:layout_below="@+id/botmastxt"
+        android:layout_alignLeft="@+id/botmastxt"
+        android:layout_alignStart="@+id/botmastxt" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/leaveroom"
+        android:id="@+id/leaveroombtn"
+        android:textColor="#4564ed"
+        android:textSize="20sp"
+        android:layout_alignTop="@+id/roomenterbtn"
+        android:layout_toRightOf="@+id/textView10"
+        android:layout_toEndOf="@+id/textView10" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sendmsg"
+        android:id="@+id/textView13"
+        android:textColor="#5f0404"
+        android:textSize="20sp"
+        android:layout_below="@+id/roomenterbtn"
+        android:layout_alignLeft="@+id/roomenterbtn"
+        android:layout_alignStart="@+id/roomenterbtn" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_below="@+id/textView13"
+        android:layout_alignLeft="@+id/textView13"
+        android:layout_alignStart="@+id/textView13"
+        android:layout_alignRight="@+id/botmastxt"
+        android:layout_alignEnd="@+id/botmastxt"
+        android:hint="@string/message"
+        android:inputType="text" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sendmessage"
+        android:id="@+id/sendroommsgbtn"
+        android:textColor="#4564ed"
+        android:textSize="20sp"
+        android:layout_alignBottom="@+id/editText"
+        android:layout_toRightOf="@+id/editText"
+        android:layout_toEndOf="@+id/editText" />
+
+</RelativeLayout>

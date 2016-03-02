@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Nimbuzz_BanBot_Android_By_DB</string>
+    <string name="action_settings">Settings</string>
+    <string name="lbl_username">Username:</string>
+    <string name="lbl_pwd">Password:</string>
+    <string name="btn_login">Sign In</string>
+    <string name="login">Login with your Nimbuzz Bot ID:</string>
+    <string name="hello_db">Nimbuzz BanBot Android Coded by db~@NC</string>
+    <string name="txt_username"></string>
+    <string name="txt_pwd"></string>
+    <string name="lbl_dbh4ck">Visit My Blog: http://dbh4ck.blogspot.in</string>
+    <string name="lbl_dbmail">Report Bugs: dbh4ck@gmail.com</string>
+    <string name="title_activity_bot_main_tab">BotMainTabActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="wc_lbl">WELCOME</string>
+    <string name="ol">Your Bot is now Online</string>
+    <string name="botinfo">Bot Info:</string>
+    <string name="botid">Bot Jid:</string>
+    <string name="botsts">Status:</string>
+    <string name="cnc">Connected!</string>
+    <string name="targetmsg">Your Message Here</string>
+
+    <string name="logoutbtn">Logout</string>
+    <string name="botmaster">Bot Master ID:</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="joinlbl">Join Room</string>
+    <string name="rnamelbl">RoomName:</string>
+    <string name="botnicklbl">Bot Nick:</string>
+    <string name="enterroombtnlbl">Enter</string>
+
+    <string name="sendmsg">Send Msg To Room</string>
+    <string name="message">Your Message Here</string>
+
+
+    <string name="leaveroom">Leave</string>
+    <string name="sendmessage">Send</string>
+    <string name="coderdb">Coded by Db~@NC</string>
+
+    <string name="about">About this App</string>
+    <string name="aboutbot">This is XMPP MUC Admin Jabber Bot Coded in Pure Java Using Smack API 4.14</string>
+    <string name="botfeatures">Features:</string>
+    <string name="botf">kick, ban, mem, ban ip, add comm., remove comm., grant mod., admin, owner, voice, etc.</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dbimg">dbimg</string>
+
+    <string name="dbinfo">Nimbuzz MUC BanBot</string>
+    <string name="dbinfo2">Coded By DB~@NC</string>
+    <string name="dbinfo3">Email: dbh4ck@gmail.com</string>
+    <string name="dbinfo4">Blog: http://dbh4ck.blogspot.in</string>
+    <string name="ok">OK</string>
+    <string name="dbhere">dbinf0</string>
+
+</resources>

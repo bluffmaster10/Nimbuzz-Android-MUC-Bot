@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="example.com.db.nimbuzz_banbot_android_by_db.HomeFragment"
+    android:background="#dbdca6">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wc_lbl"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:textColor="#2040f9" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ol"
+        android:id="@+id/textView3"
+        android:textSize="20sp"
+        android:textColor="#099104"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/botinfo"
+        android:id="@+id/textView4"
+        android:textSize="20sp"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:textColor="#d18205" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/botid"
+        android:id="@+id/textView5"
+        android:layout_marginTop="44dp"
+        android:textSize="18sp"
+        android:textColor="#fb0303"
+        android:layout_below="@+id/textView4"
+        android:layout_toLeftOf="@+id/textView3"
+        android:layout_toStartOf="@+id/textView3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4"
+        android:textSize="18sp"
+        android:textColor="#08bea6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/botsts"
+        android:id="@+id/textView7"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5"
+        android:textColor="#fb0303"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cnc"
+        android:id="@+id/textView8"
+        android:layout_alignBottom="@+id/textView7"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_alignStart="@+id/textView6"
+        android:textSize="18sp"
+        android:textColor="#08bea6" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/logoutbtn"
+        android:id="@+id/logoutbtn"
+        android:layout_below="@+id/textView8"
+        android:layout_alignRight="@+id/textView8"
+        android:layout_alignEnd="@+id/textView8"
+        android:layout_marginTop="61dp" />
+</RelativeLayout>
